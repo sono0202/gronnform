@@ -1,0 +1,103 @@
+/* Navbar  */
+.custom-navbar {
+  background-color: #f1f1f1;
+
+}
+
+.custom-navbar .nav-link {
+  color: #1f2937;
+  font-size: 1rem;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #576d89;
+  transition: color 0.25s ease;
+}
+
+/* Hero section */
+.hero-section {
+  background-image: url('../images/concept-1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* Hero text */
+.hero-section h1 {
+  font-size: 2rem;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  .custom-navbar .nav-link:hover {
+    color: #576d89;
+    transition: color 0.25s ease;
+    transform: scale(1.10);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-section {
+    padding: 4rem;
+  }
+
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+    .custom-navbar .nav-link:hover {
+    color: #576d89;
+    transition: color 0.25s ease;
+    transform: scale(1.10);
+  }
+}
+
+/* navbar logo */ 
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* footer */
+.site-footer {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+.site-footer a {
+  display: inline-flex;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+
+.site-footer .footer-link {
+  color: #e5e7eb;
+  font-size: 1.3rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.site-footer .footer-link:hover {
+  color: #38bdf8;
+  transform: scale(1.15);
+}
+
+

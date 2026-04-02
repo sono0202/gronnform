@@ -1,7 +1,12 @@
+body{
+  background-color: #f1f1f1;
+}
+#navbar-container{
+  height: 3rem;
+}
 /* Navbar  */
 .custom-navbar {
   background-color: #f1f1f1;
-
 }
 
 .custom-navbar .nav-link {
@@ -16,56 +21,55 @@
 
 /* Hero section */
 .hero-section {
-  background-image: url('../images/concept-1.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh; 
-  padding: 2rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: white;
 }
 
 /* Hero text */
 .hero-section h1 {
-  font-size: 2rem;
+  font-size: 3.5rem;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding-left: 2.5rem;
 }
 
-.hero-section p {
-  font-size: 1rem;
-  max-width: 600px;
+.row{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 @media (min-width: 768px) {
   .hero-section h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
-  .hero-section p {
-    font-size: 1.2rem;
-  }
-  .custom-navbar .nav-link:hover {
+  .nav-link:hover {
     color: #576d89;
     transition: color 0.25s ease;
     transform: scale(1.10);
   }
+  .row{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  }
 }
 
 @media (min-width: 1200px) {
-  .hero-section {
-    padding: 4rem;
-  }
-
   .hero-section h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
     .custom-navbar .nav-link:hover {
     color: #576d89;
     transition: color 0.25s ease;
     transform: scale(1.10);
   }
+  .row{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
 }
 
 /* navbar logo */ 
@@ -78,8 +82,8 @@
 
 /* footer */
 .site-footer {
-  background-color: #0f172a;
-  color: #e5e7eb;
+  background-color: #e8e8e8;
+  color: #1f2937;
 }
 .site-footer a {
   display: inline-flex;
@@ -90,14 +94,15 @@
 
 
 .site-footer .footer-link {
-  color: #e5e7eb;
+  color: #1f2937;
   font-size: 1.3rem;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .site-footer .footer-link:hover {
-  color: #38bdf8;
+  color: #576d89;
   transform: scale(1.15);
 }
+
 
 

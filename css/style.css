@@ -42,6 +42,7 @@ body{
 
 #service{
  background-color: #aac1b8;
+ padding: 1rem;
 }
 
 article{
@@ -75,10 +76,16 @@ article{
   padding: 2rem; 
 }
 .img-container-srv img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;  /* centers horizontally */
+  margin: 0 auto;
+}
+.img-container-srv img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -109,6 +116,12 @@ article{
 .flex-grow-1{
 margin-top: 1rem;
 }
+.img-container-srv img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;  
+}
 
 
 }
@@ -134,14 +147,18 @@ margin-top: 1rem;
   .navbar-collapse{
     padding-right: 4rem;
   }
-  #contact{
-  padding-top: 8rem;
-}
+
 .navbar{
   padding: 1.5rem;
 }
 .flex-grow-1{
 margin-top: 2rem;
+}
+.img-container-srv img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;  /* centers horizontally */
 }
 
 }

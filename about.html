@@ -10,29 +10,38 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 </head>
 <body class="d-flex flex-column min-vh-100">
     <div id="navbar-container"></div>
     <main class="flex-grow-1">
         <div class="container-fluid">
-            <div class="row min-vh-80 py-5">
-                <article class="col-md-8">
+            <div class="row min-vh-80">
+              <div class="col-md-2"></div>
+              <div class="col-md-5" data-aos="fade-up">
+                <article>
                   <h2>Om Meg</h2>
                     <p>Jeg heter Kari Anne og driver Grønn form, er utdannet gartner, har flere års høyskolestudier innen blant annet design og produktutvikling, og har 30 års erfaring med formidling og veiledning fra videregående skole.</p>
                     <p>Gjennom Grønn Form har jeg i over 14 år jobbet med å veilede, designe og inspirere andre til å se muligheter og løsninger for sine uteområder, enten det er nybygd tomt eller en gammel hage som trenger å vitaliseres. Oppdragene er i hovedsak hager på Østlandet, men det jobbes også med oppdrag på distanse.</p>
                     <p>For meg er hage et sted å finne ro og et visuelt vakkert sted å være. En hage skal være funksjonell, og gjerne ha ulike soner for ulike aktiviteter, men samtidig ha en rød tråd som binder tomten sammen til en helhet og er godt tilpasset kundens ønsker og stilen huset har.</p>
                 </article>
-            
-                <aside class="col-md-4 ">
-                  <img src="images/concept-1.jpg" alt="" class="img-fluid">
-                  </aside>
-
+              </div>
+              <div class="col-md-4 " data-aos="fade-up" >
+                <div class="img-container-abt">
+                  <img src="images/concept-1.jpg" alt="" class="img-fluid rounded">
+                </div>
+              </div>
+              <div class="col-md-1"></div>
             </div>
         </div>
     </main>
   <script src="js/footer.js"></script>
   <script src="js/navbar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
